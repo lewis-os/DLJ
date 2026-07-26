@@ -16,14 +16,14 @@ fs.mkdirSync(path.join(out, "articles"), { recursive: true });
 fs.mkdirSync(path.join(out, "editions"), { recursive: true });
 fs.cpSync(path.join(root, "assets"), path.join(out, "assets"), { recursive: true });
 
-const icon = `<span class="mark" aria-hidden="true">DLJ</span>`;
+const icon = `<span class="mark"><img src="${base}/assets/dlj-logo.svg" alt="" aria-hidden="true"></span>`;
 const header = () => `<header class="site-header"><a class="brand" href="${base}/">${icon}<span><b>Danika Lewis Journal</b><small>Ideas worth carrying forward</small></span></a><button class="menu" aria-label="Open menu">Menu</button><nav><a href="${base}/#current">Current edition</a><a href="${base}/archive/">Archive</a><a href="${base}/about/">About</a></nav></header>`;
 const footer = () => `<footer><div>${icon}<p>A public journal of human-centered reflection by Danika Lewis.</p></div><div class="footer-links"><a href="${site.linkedin}">LinkedIn</a><a href="${site.github}">Source archive</a><a href="${base}/about/">Editorial method</a></div><p class="fine">© 2026 Danika Lewis Journal · Sources and uncertainty are named in every entry.</p></footer>`;
 const layout = ({title, description, body, image=""}) => `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)} · DLJ</title><meta name="description" content="${esc(description)}">
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:type" content="article">${image ? `<meta property="og:image" content="${esc(image)}">` : ""}
-<link rel="icon" href="${base}/assets/favicon.svg"><link rel="stylesheet" href="${base}/assets/site.css">
+<link rel="icon" href="${base}/assets/dlj-logo.svg"><link rel="stylesheet" href="${base}/assets/site.css">
 </head><body>${header()}<main>${body}</main>${footer()}<script src="${base}/assets/site.js" defer></script></body></html>`;
 
 const card = (e, featured=false) => `<article class="card ${featured?"featured":""}">
@@ -69,7 +69,7 @@ for (const ed of editions) {
 }
 
 const current=editions[0], entries=current.entrySlugs.map(s=>entryBySlug[s]);
-const home=`<section class="home-hero"><div><p class="eyebrow">Danika Lewis Journal · Edition ${current.number}</p><h1>Ideas lived.<br>Lessons preserved.<br><em>Questions carried forward.</em></h1><p>${esc(site.description)}</p><div class="hero-actions"><a class="button primary" href="${base}/editions/${current.slug}/">Read the current edition</a><a href="#current">Explore the week ↓</a></div></div><img src="${base}/assets/readme/dlj-hero-cover.webp" alt="Danika Lewis Journal"></section>
+const home=`<section class="home-hero"><div class="hero-copy"><div><p class="eyebrow">Danika Lewis Journal · Edition ${current.number}</p><h1>Ideas lived.<br>Lessons preserved.<br><em>Questions carried forward.</em></h1></div><div class="hero-intro"><p>${esc(site.description)}</p><div class="hero-actions"><a class="button primary" href="${base}/editions/${current.slug}/">Read the current edition</a><a href="#current">Explore the week ↓</a></div></div></div><figure class="hero-cover"><img src="${base}/assets/readme/dlj-hero-cover.webp" alt="Danika Lewis Journal cover: reflections on leadership, healthcare and human-centered change"><figcaption><span>Cover artwork · Edition ${current.number}</span><span>Danika Lewis Journal · 2026</span></figcaption></figure></section>
 <section class="manifesto"><p>DLJ pauses over consequential public ideas, separates evidence from claim, and asks what innovation means for the people who must live with it.</p></section>
 <section id="current"><div class="edition-banner"><div><p class="eyebrow">${esc(current.label)} · Weekly edition ${current.number}</p><h2>${esc(current.title)}</h2><p>${esc(current.dek)}</p><a href="${base}/editions/${current.slug}/">Read the complete weekly reflection →</a></div><span class="edition-no">${current.number}</span></div>
 <div class="section-head"><div><p class="eyebrow">This week’s journal</p><h2>Ten ideas, one connected question</h2></div><p>Healthcare, autonomous systems, open AI, and a method for keeping human judgment visible.</p></div><div class="grid">${entries.slice(0,6).map((e,i)=>card(e,i===0)).join("")}</div><div class="center"><a class="button" href="${base}/editions/${current.slug}/">View all 10 reflections</a></div></section>
