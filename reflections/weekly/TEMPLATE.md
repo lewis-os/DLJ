@@ -7,6 +7,10 @@ entries: []
 
 # Weekly Reflection — YYYY-WNN
 
+## In plain words
+
+Give a new reader or listener the week's central idea before introducing individual entries.
+
 ## The week in one sentence
 
 What changed in the way we see the world this week?
@@ -21,7 +25,7 @@ What changed in the way we see the world this week?
 
 What becomes visible when these entries are placed beside one another?
 
-## What challenged us
+## What challenged me
 
 Which assumption, comfort, fear, or certainty was disturbed?
 
@@ -39,6 +43,10 @@ Where did dignity, responsibility, agency, care, or consequence appear across th
 
 Explain the week's central pattern in plain language.
 
+## Small glossary
+
+Define any specialist terms needed to follow the reflection.
+
 ## Questions carried forward
 
 -
@@ -53,4 +61,4 @@ One concrete change in what we will notice, read, ask, or do.
 >
 >
 >
-> — Week NN, 2026
+> — Danika, Week NN, 2026

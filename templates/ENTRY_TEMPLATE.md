@@ -10,10 +10,15 @@ source_date: unknown
 original_link: ""
 status:
   - captured
+danika_review: pending
 tags: []
 ---
 
 # NNN — Title
+
+## In plain words
+
+In two short paragraphs, explain the central idea and why it matters to someone encountering it for the first time. This should also work as the opening of a future audio episode.
 
 ## Source metadata
 
@@ -26,20 +31,22 @@ tags: []
 | Entered DLJ | |
 | Original link | |
 | Source record | |
+| Record completeness | |
+| Danika's editorial review | Pending |
 
 ## Source text
 
 > Preserve only text available in the source record. Use ellipses and a note if the record is incomplete.
 
-## Why it caught our attention
+## Why I stopped here
 
-What made this signal worth stopping for?
+In Danika's voice: what made this signal worth stopping for?
 
-## Summary
+## What the source says—and what it does not prove
 
 What does the source say? Keep attributed claims distinct from verified facts.
 
-## Reflection
+## My reflection
 
 What does the signal mean, challenge, or reveal?
 
@@ -50,6 +57,10 @@ Who gains agency? Who carries the risk? Where must human responsibility remain v
 ## ELI21
 
 Explain the central idea to an intelligent 21-year-old without specialist knowledge.
+
+## Small glossary
+
+Define only the specialist terms a general reader or listener genuinely needs.
 
 ## Open questions
 
@@ -65,7 +76,7 @@ Explain the central idea to an intelligent 21-year-old without specialist knowle
 >
 >
 >
-> — 2026
+> — Danika, 2026
 
 ## Revision record
 
