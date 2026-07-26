@@ -4,6 +4,8 @@
 
 > A public journal of ideas worth understanding today and remembering tomorrow.
 
+**Read the journal:** [lewis-os.github.io/DLJ](https://lewis-os.github.io/DLJ/)
+
 DLJ is where **Danika Lewis** pauses over consequential ideas, makes them understandable, and records why they mattered in their moment. It brings a human-centered leadership perspective to emerging technology, healthcare, autonomous systems, design, culture, and the questions that appear where innovation meets real life.
 
 This is not a transcript of private conversations, a news publication, or a record of everything Danika reads. It is a deliberately selected journal of public sources, personal reflection, open questions, and letters written from the present to the future.
@@ -75,9 +77,13 @@ DLJ/
 ```
 
 - [`TIMELINE.md`](TIMELINE.md) is the chronological index.
+- [`PIPELINE.md`](PIPELINE.md) is the professional research and publication queue.
+- [`editorial/registry.json`](editorial/registry.json) is the machine-readable source of truth for every item and cover.
+- [`editorial/EDITORIAL_SYSTEM.md`](editorial/EDITORIAL_SYSTEM.md) defines the daily publishing workflow and quality gates.
 - [`entries/`](entries/) contains individual journal entries grouped by year.
 - [`reflections/weekly/`](reflections/weekly/) turns a week of separate signals into a wider reflection.
 - [`templates/`](templates/) keeps the structure consistent without making the journal mechanical.
+- [`scripts/generate-covers.mjs`](scripts/generate-covers.mjs) creates consistent, editable SVG covers from the registry.
 
 ## Editorial principles
 
@@ -115,3 +121,5 @@ DLJ entries are records of attention, not endorsements. Technical, scientific, p
 **Voice:** Danika's — curious, clear, careful, and human
 
 **Home:** [github.com/lewis-os/DLJ](https://github.com/lewis-os/DLJ)
+
+**Published journal:** [lewis-os.github.io/DLJ](https://lewis-os.github.io/DLJ/)

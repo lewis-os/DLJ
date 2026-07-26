@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">The Visibility Paradox — DLJ 008</title>
+  <desc id="desc">Sensitive systems cannot disclose everything—but legitimacy cannot survive without inspectable evidence.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#082d4b" stroke-opacity=".055"/></pattern>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif;letter-spacing:3px;text-transform:uppercase}
+      .title{font-family:Georgia,'Times New Roman',serif;font-size:64px;fill:#082d4b}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#f4f0e7"/>
+  <rect x="720" width="480" height="675" fill="#b8c8d3"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <path d="M48 70H1152M48 606H1152" stroke="#c26134" stroke-width="1"/>
+  <text x="88" y="112" class="sans" font-size="18" fill="#082d4b">Danika Lewis Journal</text>
+  <text x="1112" y="112" class="sans" font-size="18" text-anchor="end" fill="#082d4b">Entry 008</text>
+  <text x="90" y="278" class="sans" font-size="16" fill="#c26134">short-essay</text>
+  <text x="90" y="350" class="title">The Visibility Paradox</text>
+  <text x="90" y="566" font-family="Inter,Arial,sans-serif" font-size="22" fill="#082d4b" opacity=".72">Secrecy, Security, and Public Accountability</text>
+  <path d="M780 420h90l30-80 45 170 50-245 43 155h150" fill="none" stroke="#c26134" stroke-width="4"/>
+    <circle cx="995" cy="420" r="154" fill="none" stroke="#082d4b" stroke-opacity=".2"/>
+    <circle cx="995" cy="420" r="102" fill="none" stroke="#082d4b" stroke-opacity=".18"/>
+    <circle cx="995" cy="420" r="48" fill="none" stroke="#c26134" stroke-opacity=".6"/>
+  <text x="760" y="632" class="sans" font-size="13" fill="#082d4b">Autonomous Systems &amp; Human Control</text>
+  <text x="1110" y="632" class="sans" font-size="13" text-anchor="end" fill="#c26134">research</text>
+</svg>

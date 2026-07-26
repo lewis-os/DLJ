@@ -2,6 +2,8 @@
 
 The timeline is the front door to the journal. Entries appear by the date they entered DLJ, which may differ from the date on which the original source was published.
 
+For work not yet published, see the [Editorial Pipeline](PIPELINE.md). The complete machine-readable index lives in [`editorial/registry.json`](editorial/registry.json).
+
 ## 2026
 
 ### July

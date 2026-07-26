@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Research Review as Human–AI Co-Creation — DLJ 010</title>
+  <desc id="desc">A transparent method for preserving a source, separating claim from fact, and turning analysis into public reflection.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#2d3342" stroke-opacity=".055"/></pattern>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif;letter-spacing:3px;text-transform:uppercase}
+      .title{font-family:Georgia,'Times New Roman',serif;font-size:64px;fill:#2d3342}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#f4f0e7"/>
+  <rect x="720" width="480" height="675" fill="#d8cfbf"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <path d="M48 70H1152M48 606H1152" stroke="#9e6848" stroke-width="1"/>
+  <text x="88" y="112" class="sans" font-size="18" fill="#2d3342">Danika Lewis Journal</text>
+  <text x="1112" y="112" class="sans" font-size="18" text-anchor="end" fill="#2d3342">Entry 010</text>
+  <text x="90" y="278" class="sans" font-size="16" fill="#9e6848">methodology</text>
+  <text x="90" y="350" class="title">Research Review as Human–AI</text>
+<text x="90" y="428" class="title">Co-Creation</text>
+  <text x="90" y="566" font-family="Inter,Arial,sans-serif" font-size="22" fill="#2d3342" opacity=".72">The Danika Method</text>
+  <path d="M805 268h356M805 350h278M805 432h326M805 514h224" stroke="#2d3342" stroke-opacity=".24" stroke-width="2"/>
+      <circle cx="805" cy="268" r="8" fill="#9e6848"/><circle cx="1083" cy="350" r="8" fill="#9e6848"/>
+      <circle cx="1131" cy="432" r="8" fill="#9e6848"/><circle cx="1029" cy="514" r="8" fill="#9e6848"/>
+  <text x="760" y="632" class="sans" font-size="13" fill="#2d3342">The Danika Method</text>
+  <text x="1110" y="632" class="sans" font-size="13" text-anchor="end" fill="#9e6848">planned</text>
+</svg>

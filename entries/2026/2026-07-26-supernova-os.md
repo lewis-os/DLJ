@@ -1,8 +1,15 @@
 ---
 id: DLJ-2026-001
+number: "001"
+slug: "revisiting-supernova-os"
 title: "Revisiting Supernova OS: Next-Gen Counter-Autonomous Defense"
+subtitle: "Next-Gen Counter-Autonomous Defense"
 dlj_date: 2026-07-26
 dlj_time: "time not preserved"
+series: "autonomous-systems-human-control"
+type: "journal-entry"
+stage: "published"
+cover: "../../assets/covers/2026/DLJ-2026-001.svg"
 source_type: "LinkedIn post"
 source_title: "Revisiting Supernova OS: Next-Gen Counter-Autonomous Defense"
 source_author: "Daniel McKay"
@@ -19,7 +26,10 @@ tags:
   - layered-ai
   - human-control
   - public-private-boundary
+summary: "What meaningful human control requires when autonomous defense begins answering machine-speed threats."
 ---
+
+![DLJ Entry 001 cover — Revisiting Supernova OS](../../assets/covers/2026/DLJ-2026-001.svg)
 
 # 001 — Revisiting Supernova OS: Next-Gen Counter-Autonomous Defense
 

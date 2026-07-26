@@ -1,8 +1,15 @@
 ---
 id: DLJ-YYYY-NNN
+number: "NNN"
+slug: ""
 title: ""
+subtitle: ""
 dlj_date: YYYY-MM-DD
 dlj_time: "HH:MM timezone"
+series: ""
+type: ""
+stage: developing
+cover: assets/covers/YYYY/DLJ-YYYY-NNN.svg
 source_type: ""
 source_title: ""
 source_author: ""
@@ -12,9 +19,14 @@ status:
   - captured
 danika_review: pending
 tags: []
+summary: ""
 ---
 
+![Entry cover](../../assets/covers/YYYY/DLJ-YYYY-NNN.svg)
+
 # NNN — Title
+
+> One-sentence editorial promise: what the reader will understand by the end.
 
 ## In plain words
 
@@ -83,3 +95,14 @@ Define only the specialist terms a general reader or listener genuinely needs.
 | Date | Change |
 |---|---|
 | YYYY-MM-DD | Initial capture |
+
+## Publication checklist
+
+- [ ] Registry record updated
+- [ ] Source metadata and completeness checked
+- [ ] Claims separated from verified facts
+- [ ] Danika review completed
+- [ ] Cover generated and checked
+- [ ] Links checked
+- [ ] Timeline updated
+- [ ] Stage changed to `published`

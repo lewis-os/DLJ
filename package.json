@@ -1,0 +1,10 @@
+{
+  "name": "danika-lewis-journal",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "covers": "node scripts/generate-covers.mjs",
+    "build": "npm run covers && node scripts/build-site.mjs",
+    "test": "node scripts/test-site.mjs"
+  }
+}
