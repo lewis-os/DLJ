@@ -1,9 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
-  <title id="title">Danika Lewis Journal monogram</title>
-  <desc id="desc">An open journal page forming the letters D, L, and J.</desc>
-  <rect width="320" height="320" rx="160" fill="#082c49"/>
-  <path d="M82 77h62c63 0 101 30 101 82s-38 84-101 84H82V77Z" fill="none" stroke="#f5f0e6" stroke-width="12"/>
-  <path d="M119 78v164m0-82h66m0-82v126c0 25 14 39 41 39" fill="none" stroke="#f5f0e6" stroke-width="12" stroke-linecap="square"/>
-  <path d="M119 160c22-13 44-13 66 0" fill="none" stroke="#bd673d" stroke-width="8" stroke-linecap="round"/>
-  <circle cx="245" cy="77" r="7" fill="#bd673d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">DLJ</title>
+  <desc id="desc">Danika Lewis Journal editorial monogram.</desc>
+  <rect width="128" height="128" fill="#f5f0e6"/>
+  <path d="M14 14h100M14 114h100" stroke="#bd673d" stroke-width="2"/>
+  <text x="64" y="78" text-anchor="middle" fill="#082c49" font-family="Georgia, 'Times New Roman', serif" font-size="53" letter-spacing="-4">DLJ</text>
 </svg>
