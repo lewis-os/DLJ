@@ -41,7 +41,7 @@ Danika completed **Human Centered Service Design** through **IDEO U** in 2024 an
 ### Connect
 
 - [LinkedIn — Danika Lewis](https://www.linkedin.com/in/danika-lewis-29a6185/)
-- [Email — dml1900@yahoo.com](mailto:dml1900@yahoo.com)
+- [Email — lewis.os.contact@gmail.com](mailto:lewis.os.contact@gmail.com)
 - [DLJ timeline](TIMELINE.md)
 
 ## Why this journal exists
